@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: rgb(209, 209, 223);
+  border-bottom: 5px rgb(170, 9, 9) solid;
+}
+
+.logo {
+  width: 75px;
+
+}
+.nav div{
+  display: flex;
+  align-items: center;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 5px;
+}
+
+.nav ul li {
+  cursor: pointer;
+}
+
+.carrito-logo {
+  width: 20px;
+}
+
+.saludo {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
